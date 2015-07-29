@@ -14,7 +14,10 @@
 2. css / js 文件夹建立在和 templates 同一层
 
 ###maven 的依赖问题
-依赖放在 的
+依赖放在 pom.xml 的 dependencies 下      
+1. denpendencies 下放主包    
+2. denpendencyManagement 下放应用需要的包的版本号，这个包在已下载的 denpendencies 主包里面     
+3. denpendcies 下的会下载，denpendcyManagement 不会下载
  
 ###eclipse 快捷键
 1. c+s+g:查看类的被引用情况
