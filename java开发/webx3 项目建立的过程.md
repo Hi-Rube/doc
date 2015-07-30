@@ -19,10 +19,12 @@
 2. denpendencyManagement 下放应用需要的包的版本号，这个包在已下载的 denpendencies 主包里面     
 3. denpendcies 下的会下载，denpendcyManagement 不会下载
  
-###eclipse 快捷键
+###eclipse 快捷键等
 1. c+s+g:查看类的被引用情况
 2. c+s+t:查看方法所在的jar包和类
 3. ctr+h:全文查询
+4. eclipse 编码问题: 
+windows->Preferences...打开"首选项"对话框，左侧导航树，导航到 general->Content Types，
 
 ##webx3 petstore 项目分析  
 
