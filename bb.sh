@@ -1,4 +1,2 @@
-node .bb.js
-mv xiba.png xiba.tar
-tar -xvf xiba.tar
-rm -rf xiba.tar
+node .bb.js $1
+tar -xvf xiba.png
