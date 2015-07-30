@@ -123,7 +123,7 @@ defaultComponent 为默认的启动哪个子应用
 **dal-dao.xml**    
 
 
-##5. Spring 配置的分析与加载
+##Spring 配置的分析与加载
    
 
    
