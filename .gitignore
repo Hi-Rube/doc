@@ -1,4 +1,6 @@
 private
-tmp
+.tmp
+.step.js
 step.sh
+.bb.js
 bb.sh
