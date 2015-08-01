@@ -22,3 +22,4 @@ android{
 等待继续
 在 v2ex 上提了问题
 可以利用 github 上 NativeScript 编译好的 v8 静态库 
+
