@@ -8,6 +8,10 @@
  #set ($rayna = 'rube')    ##error 单引号的原因
 ```
 
+当设定的值不存在时
+<a class="$class"\> 会显示 <a class="$class"\>          
+如果将 $class 变为 $!class 就会显示 <a class=""\> 为空  
+
 ###条件判断    
 
 ```
