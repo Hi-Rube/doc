@@ -11,3 +11,6 @@ dom 解析的时候将两个div 之间的空白 \r\n 等变成了一个空白符
 将父级的div 元素的 font-size 设为 0， 这样使得这个空白符的font-size 为 0，也就不会出现空白了。
 
 ##js hack 点
+解决 ios 下 fixed 产生的问题      
+1. 使用 js 监听 scroll然后改变 title 的 top，title 的 position 设为 absolution        
+2. 使用 js 去计算高度然后固定，title 外部还有一层，那一层的 width 和 height 都为 100%， 然后中间需要滚动的内容层使用 overflow 为 scroll。 
