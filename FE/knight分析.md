@@ -31,7 +31,7 @@ remove:删除对象某属性
 
 **bindings**       
 binding 下面的文件结合 knight级 的 addBindHandler       
-
+checked 
 
 **knight级**    
 
