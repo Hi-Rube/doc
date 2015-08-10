@@ -29,10 +29,30 @@ var ge = compute(2,3);
 ge.next();   //1123
 ge.next(1);  //1
 ```                             
-[http://www.infoq.com/cn/articles/generator-and-asynchronous-programming/ ](http://www.infoq.com/cn/articles/generator-and-asynchronous-programming/ )    
+[http://www.infoq.com/cn/articles/generator-and-asynchronous-programming/ ](http://www.infoq.com/cn/articles/generator-and-asynchronous-programming/ )       
+
+[自己的DEMO](https://github.com/Hi-Rube/doc/tree/master/demo/harmony )           
+
+关于 yield 的变形 yield*         
+[http://blog.jobbole.com/79601/](http://blog.jobbole.com/79601/)    
+
 **3. 高阶函数处理异步回调**  
 async 和 step 的实现。     
 **4. 看代码时遇到的：** 可以通过 [].slice.call(arguments) 来隔离 arguments，使数组对象独立起到 copy 的作用
 ###1. 运行   
 node --harmony app.js   
-|| alias node = 'node --harmony'
+|| alias node = 'node --harmony'        
+
+###2. 启动     
+```              
+var koa = require('koa');     
+var app = koa();             
+app.use(function*(){              
+	this.body = 'hello world';   
+});              
+app.listen(3000);           
+```
+
+###3. 中间件编写      
+![](https://github.com/koajs/koa/raw/master/docs/middleware.gif )
+  
