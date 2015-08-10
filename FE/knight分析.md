@@ -16,23 +16,30 @@ remove:删除对象某属性
 
 **store**         
 注册全局缓存componentCache， knightCache        
-封装 store 提供缓存的 getter，setter 方法          
+封装 store 提供缓存的 getter，setter 方法                   
 
 **apart**       
 
 
 **KnightModel**      
-
+一个可定制可扩展的实例模型   
+通过 include 进行多样化   
 **Connector**     
-
-**observer**
+做一个部件与数据源的链接。
        
 **middleware**   
 为Connector提供操作方法
 
 **bindings**       
-binding 下面的文件结合 knight级 的 addBindHandler       
-checked 
+binding 下面的文件结合 knight级 的 addBindHandler，    
+提供各种命令         
+checked : 监听checkbox 的checked属性     
+disabled：对可编辑进行监听  
+events：各类原生事件的监听     
+html: 标签html的监听
+text: 对文本内容的监听    
+visiable：可见性    
+value:元素值   
 
 **knight级**    
 
