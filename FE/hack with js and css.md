@@ -8,7 +8,16 @@
 **原因：**
 dom 解析的时候将两个div 之间的空白 \r\n 等变成了一个空白符，这个空白符有大小，导致了出现间隔距离的加大。    
 **解决：**
-将父级的div 元素的 font-size 设为 0， 这样使得这个空白符的font-size 为 0，也就不会出现空白了。
+将父级的div 元素的 font-size 设为 0， 这样使得这个空白符的font-size 为 0，也就不会出现空白了。        
+
+2. 多列等高的布局实现    
+>**使用背景模拟多列等高效果**      
+>外面套一层 div 背景设为和子 div 相同
+>     
+>**负margin-bottom和padding-bottom叠加法**
+>外层 div overflow:hidden 内层 margin-bottom:-10000px padding-bottom:10000px    
+>           
+>使用脚本实现
 
 ##js hack 点
 解决 ios 下 fixed 产生的问题      
