@@ -1,0 +1,107 @@
+body, ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.titlebar-container{
+    position: fixed;
+    height:40px;
+    width: 100%;
+    background-color: #0091ea;
+}
+
+.titlebar-select-list li{
+    float: left;
+    list-style: none;
+    color:#fff;
+    line-height: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.titlebar-select-list li:first-child{
+    font-weight: 900;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+}
+#upload-container {
+    position: relative;
+    margin: 0 auto;
+    top: 60px;
+    width: 500px;
+    border: solid 1px #ccc;
+    border-radius: 3px 3px 3px 3px;
+}
+
+.upload-info {
+    border-bottom: solid 1px #ccc;
+    height: 20px;
+    padding: 10px;
+    line-height: 20px;
+}
+
+#upload-upbtn {
+    display: block;
+    width: 40px;
+    height: 20px;
+    background: #259b24;
+    font-size: 12px;
+    text-align: center;
+    float: right;
+}
+
+.upload-info-number {
+    color: #666;
+    font-size: 13px;
+    float: left;
+}
+
+.upload-process {
+    font-size: 13px;
+    color: #666;
+    font-weight: 900;
+    width: 100%;
+    text-align: left;
+    border-collapse:collapse;
+}
+
+.upload-process tr {
+    height: 50px;
+    border-top: solid 1px #ccc;
+}
+
+.upload-process-id {
+    width: 10%;
+    text-align: center;
+}
+
+.upload-process-name {
+    width: 30%;
+    line-height: 50px;
+}
+
+.upload-process-size {
+    width: 30%;
+}
+
+.upload-process-percent {
+    width: 20%;
+}
+
+.upload-process-preview-container{
+    width: 50px;
+    height: 50px;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.upload-process-preview {
+    width: 100%;
+}
