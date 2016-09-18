@@ -19,6 +19,15 @@ dom 解析的时候将两个div 之间的空白 \r\n 等变成了一个空白符
 >           
 >使用脚本实现
 
+3. 一条线能够随意地移动又能被自动撑高
+**问题：**      
+想要能够有一条边线链接两点，如question-answer格式，question用li列出list-style设为image为一个灰点，多个li之间用一条线上下连接，同时点击question，answer显示出来，这条线又要自动撑高          
+**解决：**
+```
+top: 0px;
+bottom: 0px;
+```
+
 ##js hack 点
 解决 ios 下 fixed 产生的问题      
 1. 使用 js 监听 scroll然后改变 title 的 top，title 的 position 设为 absolution        
